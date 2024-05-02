@@ -1,5 +1,5 @@
 # Configure proxy server for New Relic infrastructure agent
-## Step 1 - Install a Squid server (15 minutes, finished)
+## Step 1 - Install a Squid server (15 minutes)
 ### Install Squid
 At a terminal prompt, enter the following command to install the Squid server:
 ```
@@ -28,7 +28,7 @@ After making any changes to the /etc/squid/squid.conf file, you will need to sav
 ```
 sudo systemctl restart squid.service
 ```
-## Step 2 - Prepare a machine ready to be managed (15 minutes, Dev team)
+## Step 2 - Prepare a machine ready to be managed (15 minutes)
 Recommend to use an online server for installing the infrastructure agent.
 ## Step 3 - Install the infrastructure agent (15 minutes)
 The quickest way to get started with New Relic infrastructure monitoring agent is through guided install.
